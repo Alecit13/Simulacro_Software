@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    position: relative; /* Fija el navbar en la parte superior de la pantalla */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 60px; /* Ajusta el alto según sea necesario */
+    background-color: #206875; /* Color de fondo del navbar */
+    color: white; /* Color del texto */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0 20px;
+}
